@@ -57,7 +57,7 @@ describe App do
       expect(page.status_code).to eq(200)
     end
 
-    it "recieves a request from /new at /puppy" do
+    it "receives a request from /new at /puppy" do
       expect(page.current_path).to eq("/puppy")
     end
 
